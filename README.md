@@ -9,7 +9,7 @@ private botnet.
 ```sh
 pip install -r requirements.txt
 ```
-- Ensure docker is installed and enables. Refer to the [Wiki](wiki/installing-docker) 
+- Ensure docker is installed and enables. Refer to the [Wiki](../../wiki/installing-docker)
 for installation on Kali/Debian
 - `proxychains4` is required for interactive mode
 
@@ -17,7 +17,7 @@ for installation on Kali/Debian
 - Create a `VPN` folder in the root of the project 
 - Fill it with `*.ovpn` files and ensure that the `auth-user-pass` directive
   in your `./VPN/*.ovpn` files says `auth-user-pass auth.txt`
-   - Watch [this wiki section](wiki#getting-started-with-vpn-providers) for installation tips for
+   - Watch [this wiki section](../../wiki#getting-started-with-vpn-providers) for installation tips for
      individual VPN providers
 - Create an `auth.txt` file with your ovpn credentials in `VPN`
 - Run `./doxycannon.sh -b` to build your image
